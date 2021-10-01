@@ -70,13 +70,13 @@ export default abstract class BaseClass {
   public abstract onVisibleForm(data: TaskList): void;
 
   public onCreateTask(data: TaskCreate): void {
-    console.log("Đây là tính đa hình");
+    console.log("onCreateTask");
   }
 
   public onUpdateTask(data: TaskUpdate): void {
-    console.log("Đây là tính đa hình");
+    console.log("onUpdateTask");
   }
   public onDeleteTask(data: TaskDelete): void {
-    console.log("Đây là tính đa hình");
+    console.log("onDeleteTask");
   }
 }
